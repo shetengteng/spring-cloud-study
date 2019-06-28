@@ -1,0 +1,31 @@
+<!--用于支持thymeleaf引擎-->
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <span>访问model：</span><span th:text="${person.name}"></span>
+    </div>
+    <div>
+        <span>访问列表</span>
+        <table>
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>年龄</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="item : ${people}">
+                    <td th:text="${item.name}"></td>
+                    <td th:text="${item.age}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
