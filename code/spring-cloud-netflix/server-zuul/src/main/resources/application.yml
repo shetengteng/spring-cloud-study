@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: server-zuul
+  zipkin:
+    base-url: http://localhost:9411
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+
+server:
+  port: 8769
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    api-a: # 自定义路由名称，拦截所有/api/a的请求，到ribbon客户端
+      path: /api/a/**
+      serviceId: server-consumer-ribbon
+    api-b:
+      path: /api/b/**
+      serviceId: server-consumer-feign
+

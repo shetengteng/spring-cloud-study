@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: server-config
+
+  zipkin:
+    base-url: http://localhost:9411
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+
+  cloud:
+    config:
+      label: master # 分支的名称
+      server:
+        git:
+          uri: http://192.168.119.130:8080/ttshe/server-config.git
+          search-paths: respo # 仓库的名称
+          username: ttshe
+          password: 12345678
+
+server:
+  port: 8888 # 默认配置必须是8888，如果要更改需要添加bootstrap.yml，该yml会优先加载
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
