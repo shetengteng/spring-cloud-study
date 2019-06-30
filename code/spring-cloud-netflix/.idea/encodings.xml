@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/common-dependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-cloud-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-zuul" charset="UTF-8" />
+  </component>
+</project>

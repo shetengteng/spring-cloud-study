@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-dependencies/common-dependencies.iml" filepath="$PROJECT_DIR$/common-dependencies/common-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-cloud-admin/server-cloud-admin.iml" filepath="$PROJECT_DIR$/server-cloud-admin/server-cloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-config/server-config.iml" filepath="$PROJECT_DIR$/server-config/server-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-consumer-feign/server-consumer-feign.iml" filepath="$PROJECT_DIR$/server-consumer-feign/server-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-consumer-ribbon/server-consumer-ribbon.iml" filepath="$PROJECT_DIR$/server-consumer-ribbon/server-consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-eureka/server-eureka.iml" filepath="$PROJECT_DIR$/server-eureka/server-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-provider/server-provider.iml" filepath="$PROJECT_DIR$/server-provider/server-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zipkin/server-zipkin.iml" filepath="$PROJECT_DIR$/server-zipkin/server-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zuul/server-zuul.iml" filepath="$PROJECT_DIR$/server-zuul/server-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-netflix.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-netflix.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server-cloud-admin" />
+        <module name="server-zipkin" />
+        <module name="server-eureka" />
+        <module name="server-consumer-feign" />
+        <module name="server-zuul" />
+        <module name="server-provider" />
+        <module name="spring-cloud-eureka" />
+        <module name="server-config" />
+        <module name="server-consumer-ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-dependencies" target="1.8" />
+      <module name="server-cloud-admin" target="1.8" />
+      <module name="server-config" target="1.8" />
+      <module name="server-consumer-feign" target="1.8" />
+      <module name="server-consumer-ribbon" target="1.8" />
+      <module name="server-ddd" target="1.8" />
+      <module name="server-eureka" target="1.8" />
+      <module name="server-eureka2" target="1.8" />
+      <module name="server-provider" target="1.8" />
+      <module name="server-provider (1)" target="1.8" />
+      <module name="server-zipkin" target="1.8" />
+      <module name="server-zuul" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="server-cloud-admin" options="-parameters" />
+      <module name="server-config" options="-parameters" />
+      <module name="server-consumer-feign" options="-parameters" />
+      <module name="server-consumer-ribbon" options="-parameters" />
+      <module name="server-eureka" options="-parameters" />
+      <module name="server-provider" options="-parameters" />
+      <module name="server-zipkin" options="-parameters" />
+      <module name="server-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
