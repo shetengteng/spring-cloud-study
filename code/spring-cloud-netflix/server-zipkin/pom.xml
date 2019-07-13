@@ -71,7 +71,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.hello.spring.cloud.zipkin.ZipKinApplication</mainClass>
+                    <mainClass>com.stt.server.zipkin.ZipKinApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
