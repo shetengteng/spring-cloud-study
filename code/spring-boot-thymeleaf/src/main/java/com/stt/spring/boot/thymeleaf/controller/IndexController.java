@@ -7,9 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-/**
- * Created by Administrator on 2019/6/26.
- */
+
 @Controller
 @RequestMapping(value = "thymeleaf")
 public class IndexController {

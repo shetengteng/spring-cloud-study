@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!-- 引入数据库连接配置 -->
+    <properties resource="generator/jdbc.properties"/>
+
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <!-- 配置 tk.mybatis 插件 -->
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="tk.mybatis.mapper.TkMapper"/>
+        </plugin>
+
+        <!-- 配置数据库连接 -->
+        <jdbcConnection driverClass="${jdbc.driverClass}"
+                connectionURL="${jdbc.connectionURL}"
+                userId="${jdbc.username}"
+                password="${jdbc.password}">
+            <property name ="nullCatalogMeansCurrent" value = "true"/>
+        </jdbcConnection>
+
+
+        <!-- 配置实体类存放路径 -->
+        <javaModelGenerator targetPackage="com.stt.itoken.service.admin.domain" targetProject="src/main/java"/>
+
+        <!-- 配置 XML 存放路径 -->
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+
+        <!-- 配置 DAO 存放路径 -->
+        <javaClientGenerator
+                targetPackage="com.stt.itoken.service.admin.mapper"
+                targetProject="src/main/java"
+                type="XMLMAPPER"/>
+
+        <!-- 配置需要指定生成的数据库和表，% 代表所有表  如果是多张表需要些多个table标签区别-->
+        <table tableName="tb_sys_user">
+            <!-- mysql 配置 所有主键的名称都是id 数据库类型Mysql  这里的主键user_code是varchar类型，不是自增，不能使用identity=true-->
+            <generatedKey column="user_code" sqlStatement="Mysql" identity="false"/>
+        </table>
+    </context>
+</generatorConfiguration>

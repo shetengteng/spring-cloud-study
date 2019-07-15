@@ -1,7 +1,7 @@
 spring:
   thymeleaf:
-    cache: false # ����ʱ�رջ���,��Ȼû������ʵʱҳ��
-    mode: LEGACYHTML5 # �÷��ϸ�� HTML ��Ҫ���� nekohtml ����
+    cache: false # 开发时关闭缓存,不然没法看到实时页面
+    mode: LEGACYHTML5 # 用非严格的 HTML 需要添加 nekohtml 依赖
     encoding: UTF-8
     servlet:
       content-type: text/html
