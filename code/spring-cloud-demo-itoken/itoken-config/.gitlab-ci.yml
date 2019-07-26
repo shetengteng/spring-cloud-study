@@ -1,0 +1,30 @@
+stages: # 定义阶段
+  - package
+  - push
+  - run
+  - clean
+
+package: # 定义节点对象，自定义名称
+  stage: package # 阶段名称，stages依据该名称找到
+  script: # 输入执行脚本，该脚本的类型与创建runner时定义保持一致，这里是shell脚本
+    - /usr/local/maven/apache-maven-3.5.3/bin/mvn clean package
+    - cp target/itoken-config-1.0.0-SNAPSHOT.jar docker # 当前stage执行完毕，target目录会被删除，需要在当前stage复制jar包
+    - cd docker # 生成镜像也必须在该stage完成，再开一个stage时，cp的jar包会被删除
+    - docker build -t 192.168.119.134:5000/itoken-config .
+
+push:
+  stage: push
+  script:
+    - docker push 192.168.119.134:5000/itoken-config
+
+run:
+  stage: run
+  script:
+    - cd docker
+    - docker-compose down
+    - docker-compose up -d
+
+clean:
+  stage: clean
+  script:
+    - docker rmi $(docker images -qf dangling=true)

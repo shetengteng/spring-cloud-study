@@ -1,0 +1,40 @@
+spring:
+  cloud: # 通过spring-cloud-config进行获取配置
+    config:
+      uri: http://192.168.119.132:8888
+#      uri: http://localhost:8888
+      name: itoken-eureka
+      label: master
+      profile: prod
+
+
+#spring:
+#  application:
+#    name: itoken-eureka
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8084
+#  zipkin:
+#    base-url: http://localhost:9411
+#
+#server:
+#  port: 8761
+#
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: health,info

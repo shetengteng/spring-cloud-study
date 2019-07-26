@@ -1,0 +1,7 @@
+stages: # 定义阶段
+  - test
+
+stages-1: # 定义节点对象，自定义名称
+  stage: test # 阶段名称，stages依据该名称找到
+  script: # 输入执行脚本，该脚本的类型与创建runner时定义保持一致，这里是shell脚本
+    - echo "hello world runner"

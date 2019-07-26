@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.119.132:8888
+      name: itoken-zuul
+      label: master
+      profile: dev
+
+
+zuul:
+  routes:
+    backend-admin:
+      path: /backend/admin/**
+      serviceId: itoken-web-admin
+    backend-posts:
+      path: /backend/posts/**
+      serviceId: itoken-web-posts

@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: itoken-config
+  zipkin:
+    base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+  cloud:
+    config:
+      label: master # 分支的名称
+      server:
+        git:
+          uri: http://192.168.119.130:8080/itoken/itoken-config-respo.git # 仓库的名称
+          search-paths: config # 存放配置的文件夹的名称
+          username: ttshe
+          password: 12345678
+
+server:
+  port: 8888 # 默认配置必须是8888，如果要更改需要添加bootstrap.yml，该yml会优先加载
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+# 健康检查配置
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
