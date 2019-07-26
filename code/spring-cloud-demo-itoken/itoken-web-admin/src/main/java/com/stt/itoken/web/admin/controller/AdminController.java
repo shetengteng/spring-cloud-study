@@ -1,6 +1,5 @@
 package com.stt.itoken.web.admin.controller;
 
-import com.stt.itoken.common.dto.BaseResult;
 import com.stt.itoken.web.admin.feign.AdminFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,11 +14,8 @@ public class AdminController {
 	@Autowired
 	private AdminFeignService adminFeignService;
 
-	// 跳转到index
-	@GetMapping(value = {"","login"})
-	public String login(){
-		BaseResult login = adminFeignService.login("stt@qq.com", "123456");
-		System.out.println(login);
+	@GetMapping({"","/index"})
+	public String index(){
 		return "index";
 	}
 

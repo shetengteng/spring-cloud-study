@@ -21,6 +21,11 @@
             <artifactId>itoken-common</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.stt</groupId>
+            <artifactId>itoken-common-domain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
 
         <!-- Spring Boot Begin -->
         <dependency>

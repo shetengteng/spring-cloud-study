@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: itoken-eureka
+  boot:
+    admin:
+      client:
+        url: http://192.168.119.132:8084
+  zipkin:
+    base-url: http://192.168.119.132:9411
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: 192.168.119.132
+  client:
+    registerWithEureka: true # 表示自己是否注册到eureka，因为是集群环境，需要自己注册到集群，要开启
+    fetchRegistry: true # 表示是否从eureka获取注册信息，如果是单一节点，不需要同步其他eureka节点，可以设置为false，此处是集群，需要设置true
+    serviceUrl: # 设置端口，端口设置为区间
+      defaultZone: http://192.168.119.132:8761/eureka/,http://192.168.119.132:8861/eureka/,http://192.168.119.132:8961/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info

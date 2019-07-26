@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: itoken-service-posts
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.119.135:3306?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: 123456
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      # MySQL 8.x: com.mysql.cj.jdbc.Driver ??url??? &serverTimezone=UTC
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+      driver-class-name: com.mysql.jdbc.Driver
+
+# 服务提供者从8501开始，服务消费者从8601开始
+server:
+  port: 8504

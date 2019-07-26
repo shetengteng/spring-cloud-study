@@ -1,0 +1,5 @@
+mybatis:
+    type-aliases-package: com.stt.itoken.common.domain
+    mapper-locations: classpath:mapper/*.xml
+    configuration:
+      cache-enabled: true

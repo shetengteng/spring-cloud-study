@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: itoken-web-posts
+
+# 服务提供者从8501开始，服务消费者从8601开始
+server:
+  port: 8604

@@ -1,0 +1,7 @@
+spring:
+  cloud: # 通过spring-cloud-config进行获取配置
+    config:
+      uri: http://192.168.119.132:8888
+      name: itoken-common-hosts, itoken-client-eureka, itoken-client-zipkin, itoken-client-admin, itoken-common-web, itoken-web-posts
+      label: master
+      profile: prod

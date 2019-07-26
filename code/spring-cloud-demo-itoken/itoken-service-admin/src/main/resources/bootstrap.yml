@@ -2,6 +2,6 @@ spring:
   cloud: # 通过spring-cloud-config进行获取配置
     config:
       uri: http://localhost:8888
-      name: itoken-service-admin
+      name: itoken-client-redis, itoken-client-eureka, itoken-client-zipkin, itoken-client-admin, itoken-common-service, itoken-service-admin
       label: master
       profile: dev

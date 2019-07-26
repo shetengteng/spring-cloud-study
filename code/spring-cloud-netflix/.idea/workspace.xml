@@ -2,11 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e8fba9-a86f-492e-b9d1-69ae2604aa39" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/bin/clean-deploy.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-domain/itoken-common-domain.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-domain/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-domain/src/main/java/com/stt/itoken/common/domain/BaseDomain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-domain/src/main/java/com/stt/itoken/common/domain/TbPostsPost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-service/src/main/java/com/stt/itoken/common/service/BaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-service/src/main/java/com/stt/itoken/common/service/BaseServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-web/src/main/java/com/stt/common/web/config/InterceptorConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-web/src/main/java/com/stt/common/web/interceptor/ConstantsInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-web/src/main/resources/META-INF/spring.factories" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common/src/main/java/com/stt/itoken/common/hystrix/Fallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/java/com/stt/itoken/service/admin/mapper/TbSysUserExtendMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-redis/itoken-service-redis.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-redis/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-redis/src/main/java/com/stt/itoken/service/redis/ServiceRedisApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-redis/src/main/java/com/stt/itoken/service/redis/controller/RedisController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-redis/src/main/java/com/stt/itoken/service/redis/service/RedisService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-redis/src/main/resources/bootstrap-prod.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-redis/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/itoken-service-sso.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/java/com/stt/itoken/service/sso/ServiceSSOApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/java/com/stt/itoken/service/sso/consumer/RedisService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/java/com/stt/itoken/service/sso/consumer/fallback/RedisServiceFallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/java/com/stt/itoken/service/sso/controller/LoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/java/com/stt/itoken/service/sso/mapper/TbSysUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/java/com/stt/itoken/service/sso/service/LoginService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/resources/bootstrap-prod.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/resources/mapper/TbSysUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/resources/rebel.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-sso/src/main/resources/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/config/WebAdminInterceptorConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/consumer/RedisService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/consumer/fallback/RedisServiceFallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/interceptor/WebAdminInterceptor.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/java/com/stt/itoken/service/admin/mapper/TbSysUserMapper.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-admin" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-admin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-config" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-dependencies" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-eureka" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-eureka" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-zipkin" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-zipkin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-zuul" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-zuul" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-service/pom.xml" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common/pom.xml" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common/src/main/java/com/stt/itoken/common/dto/BaseResult.java" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common/src/main/java/com/stt/itoken/common/dto/BaseResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/pom.xml" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/java/com/stt/itoken/service/admin/ServiceAdminApplication.java" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/java/com/stt/itoken/service/admin/ServiceAdminApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/java/com/stt/itoken/service/admin/controller/AdminController.java" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/java/com/stt/itoken/service/admin/controller/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/java/com/stt/itoken/service/admin/service/AdminService.java" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/java/com/stt/itoken/service/admin/service/AdminService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/resources/bootstrap-prod.yml" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/resources/bootstrap-prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/resources/bootstrap.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/test/java/com/stt/itoken/service/admin/AdminServiceTest.java" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/test/java/com/stt/itoken/service/admin/AdminServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/pom.xml" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/controller/AdminController.java" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/controller/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/feign/AdminFeignService.java" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/feign/AdminFeignService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/feign/fallback/AdminServiceFallback.java" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-web-admin/src/main/java/com/stt/itoken/web/admin/feign/fallback/AdminServiceFallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/ServerZuulApplication.java" afterPath="$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/ServerZuulApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../note/07.spring-boot.md" afterPath="$PROJECT_DIR$/../../note/07.spring-boot.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../note/09.spring-cloud-config.md" afterPath="$PROJECT_DIR$/../../note/09.spring-cloud-config.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../note/12.spring-cloud-demo-itoken/05.nginx搭建伪cdn.md" afterPath="$PROJECT_DIR$/../../note/12.spring-cloud-demo-itoken/05.nginx搭建伪cdn.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../note/12.spring-cloud-demo-itoken/06.redis-单点登录.md" afterPath="$PROJECT_DIR$/../../note/12.spring-cloud-demo-itoken/06.redis-单点登录.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/java/com/stt/itoken/service/admin/domain/TbSysUser.java" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-domain/src/main/java/com/stt/itoken/common/domain/TbSysUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/resources/generator/generatorConfig.xml" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-service/src/main/resources/generator/generatorConfig.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/resources/generator/jdbc.properties" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-common-service/src/main/resources/generator/jdbc.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/resources/mapper/TbSysUserMapper.xml" afterPath="$PROJECT_DIR$/../spring-cloud-demo-itoken/itoken-service-admin/src/main/resources/mapper/TbSysUserExtendMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/common-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
@@ -36,46 +98,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-provider/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-dependencies/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2863">
-              <caret line="204" column="18" lean-forward="true" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-consumer-ribbon/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="33" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-consumer-ribbon/src/main/java/com/stt/server/consumer/ServerConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ConsumerService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server-consumer-feign/src/main/java/com/stt/server/consumer/feign/service/ConsumerService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,16 +106,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server-consumer-feign/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -122,7 +134,7 @@
         <entry file="file://$PROJECT_DIR$/server-consumer-feign/src/main/java/com/stt/server/consumer/feign/controller/ConsumerController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#454#455#0" expanded="true" />
@@ -132,11 +144,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerServiceHystrix.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConsumerServiceHystrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server-consumer-feign/src/main/java/com/stt/server/consumer/feign/service/ConsumerServiceHystrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="187">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/filter/LoginFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server-config/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerConsumerFeignFallbackProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/fallback/ServerConsumerFeignFallbackProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="868">
+              <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerZuulApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/ServerZuulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server-zuul/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -187,7 +251,6 @@
         <option value="$PROJECT_DIR$/server-zuul/pom" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/server-provider2/pom.xml" />
-        <option value="$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/ServerZuulApplication.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/server-consumer-feign/src/main/java/com/stt/server/consumer/feign/service/ConsumerService.java" />
         <option value="$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/WebAdminFeignFallbackProvider.java" />
@@ -219,6 +282,7 @@
         <option value="$PROJECT_DIR$/server-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/server-config/pom.xml" />
         <option value="$PROJECT_DIR$/server-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/ServerZuulApplication.java" />
       </list>
     </option>
   </component>
@@ -320,7 +384,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server-consumer-feign" />
+              <option name="myItemId" value="server-config-yml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server-config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,15 +402,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server-consumer-feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="server-config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,7 +416,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server-consumer-feign" />
+              <option name="myItemId" value="server-config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -365,116 +425,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-netflix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-netflix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-consumer-feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-netflix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-netflix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-consumer-feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-netflix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-netflix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-consumer-feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1085,20 +1035,21 @@
       <workItem from="1562479205140" duration="15000" />
       <workItem from="1562479307480" duration="8076000" />
       <workItem from="1562917147835" duration="2655000" />
-      <workItem from="1563166637639" duration="2911000" />
+      <workItem from="1563166637639" duration="8011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64611000" />
+    <option name="totallyTimeSpent" value="69711000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4667171" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3697,20 +3648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/fallback/ServerConsumerFeignFallbackProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/filter/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-config-yml/server-consumer-dev.yml" />
     <entry file="file://$PROJECT_DIR$/server-config-yml/server-config/server-consumer-feign-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -3740,28 +3677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-config/src/main/java/com/stt/server/config/ServerConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-config-yml/server-config/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -3851,25 +3770,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/ServerZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server-zuul/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -3898,7 +3803,7 @@
     <entry file="file://$PROJECT_DIR$/server-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3906,7 +3811,7 @@
     <entry file="file://$PROJECT_DIR$/common-dependencies/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2863">
-          <caret line="204" column="18" lean-forward="true" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+          <caret line="204" column="18" lean-forward="false" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -3964,7 +3869,7 @@
     <entry file="file://$PROJECT_DIR$/server-consumer-feign/src/main/java/com/stt/server/consumer/feign/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#454#455#0" expanded="true" />
@@ -3973,10 +3878,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server-config-yml/server-config/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server-consumer-feign/src/main/java/com/stt/server/consumer/feign/service/ConsumerServiceHystrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/ServerZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/fallback/ServerConsumerFeignFallbackProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-zuul/src/main/java/com/stt/server/zuul/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>
