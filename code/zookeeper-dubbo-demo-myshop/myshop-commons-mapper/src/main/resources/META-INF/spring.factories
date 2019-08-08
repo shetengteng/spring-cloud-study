@@ -1,0 +1,3 @@
+# 配置自定义Starter的自动化配置，当其他jar包依赖该jar包，spring容器可以自动加载该配置，防止springBoot默认读取启动类下的路径装载到ioc容器
+# 而本jar包中的类没有生效，或者在其他jar包的启动类上添加@SpringBootApplication(scanBasePackages="com.stt")
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.stt.myshop.commons.config.MyBatisMapperConfig

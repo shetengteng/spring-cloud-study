@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: rocketmq-consumer
+  cloud:
+    stream:
+      bindings:
+        input: {destination: test-topic, content-type: text/plain, group: test-group, consumer.maxAttempts: 1}
+        input1: {destination: test-topic1, content-type: text/plain, group: test-group, consumer.maxAttempts: 1}
+      rocketmq:
+        binder:
+          namesrv-addr: 192.168.119.132:9876
+        bindings:
+          input: {consumer.orderly: true}
+
+server:
+  port: 9096

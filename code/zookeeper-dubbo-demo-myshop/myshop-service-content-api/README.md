@@ -1,0 +1,2 @@
+# myshop-service-content-api
+

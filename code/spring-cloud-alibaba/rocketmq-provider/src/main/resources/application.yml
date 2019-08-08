@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: rocket-provider
+  cloud:
+    stream:
+      bindings: # 值是map
+        output: {destination: test-topic2,content-type: application/json}
+        output1: {destination: test-topic1, content-type: application/json}
+#       output写法2
+#       output: # 发送消息绑定的信息
+#         destination: test-topic2
+#         content-type: application/json
+      rocketmq:
+        binder:
+          namesrv-addr: 192.168.119.132:9876
+
+server:
+  port: 9094
+
