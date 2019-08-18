@@ -9,5 +9,4 @@ import org.springframework.context.annotation.Configuration;
  */
 @EnableHystrix
 @Configuration
-public class HsystrixConfig {
-}
+public class HsystrixConfig {}

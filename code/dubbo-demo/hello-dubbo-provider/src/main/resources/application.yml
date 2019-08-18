@@ -13,7 +13,7 @@ user:
 
 # Dubbo Config properties
 dubbo:
-  ## Base packages to scan Dubbo Component£º@com.alibaba.dubbo.config.annotation.Service
+  ## Base packages to scan Dubbo Componentï¼š@com.alibaba.dubbo.config.annotation.Service
   scan:
     basePackages: com.stt.dubbo.api.impl
   ## ApplicationConfig Bean
@@ -34,7 +34,7 @@ dubbo:
     id: zookeeper
     address: zookeeper://192.168.119.130:2181?backup=192.168.119.130:2182,192.168.119.130:2183
   provider:
-    loadbalance: random # ÅäÖÃ¸ºÔØ¾ùºâ
+    loadbalance: random # é…ç½®è´Ÿè½½å‡è¡¡
 
 
 # Enables Dubbo All Endpoints
