@@ -1,0 +1,30 @@
+management:
+  endpoint:
+    health:
+      show-details: ${SOME_ENV}
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+#        include: metrics, health
+spring:
+  profiles:
+    active: prod
+
+info:
+  app-name: spring-boot-demo
+  author: stt
+  email: work_stt@123.com
+
+# 连字符
+---
+spring:
+  profiles: dev
+---
+spring:
+  profiles: prod
+server:
+  tomcat:
+    max-threads: 300
+    max-connections: 1000
+  port: 8989

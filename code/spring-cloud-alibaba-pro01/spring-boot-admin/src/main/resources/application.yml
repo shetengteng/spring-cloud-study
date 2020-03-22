@@ -1,0 +1,10 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: spring-boot-admin
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: de1f60d3-097f-4421-b3b2-cf1bad41656d #dev

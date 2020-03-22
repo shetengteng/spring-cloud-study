@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: de1f60d3-097f-4421-b3b2-cf1bad41656d #dev
+        file-extension: yaml
+  application:
+    name: content-center
+  profiles:
+    active: dev

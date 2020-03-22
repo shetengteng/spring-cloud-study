@@ -1,0 +1,51 @@
+server:
+  port: 8040
+spring:
+  application:
+    # 注册到nacos的服务名称
+    name: gateway
+  zipkin:
+    base-url: http://localhost:9411/
+    discoveryClientEnabled: false
+  sleuth:
+    sampler:
+    # 抽样率，默认是0.1, 配置1.0，则所有的请求都会上报给zipkin
+      probability: 1.0
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: de1f60d3-097f-4421-b3b2-cf1bad41656d #dev
+    gateway:
+      routes:
+        - id: user-route
+          uri: lb://user-center
+          predicates:
+            - Path=/users/**
+        - id: content-route
+          uri: lb://content-center
+          predicates:
+            - Path=/shares/**,/admin/**
+#       - id: my-route
+#         uri: lb://user-center
+#         predicates:
+#           - TimeBetween=上午1:00,下午11:00
+#         filters:
+#         # 在header头部添加一个header，名称X-Request-Foo 值是Bar
+#           - AddRequestHeader=X-Request-Foo,Bar
+#           - PreLog=paramName,paramValue
+#      discovery:
+#        locator:
+#        # 让gateway通过服务发现组件找到其他微服务
+#          enabled: true
+
+# actuator的配置
+management:
+  endpoints:
+    web:
+      exposure:
+#        include: gateway
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
